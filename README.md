@@ -1,8 +1,8 @@
 # Frontend Mentor - Results summary component
 
-![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
+Preview [https://ahmedshawkeey.github.io/FrontendMentor-Challenges-Results-Summary-Component](https://ahmedshawkeey.github.io/FrontendMentor-Challenges-Results-Summary-Component/)
 
-Preview https://ahmedshawkeey.github.io/FrontendMentor-Challenges-Results-Summary-Component/
+![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
