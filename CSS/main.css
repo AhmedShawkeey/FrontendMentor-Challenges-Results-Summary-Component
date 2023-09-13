@@ -1,0 +1,274 @@
+/* Start Global Rules */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hsl(0, 100%, 67%);
+    --primary-color-02: hsl(39, 100%, 56%);
+    --primary-color-03: hsl(166, 100%, 37%);
+    --primary-color-04: hsl(234, 85%, 45%);
+    --background-gradiant: hsl(252, 100%, 67%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 100vh;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 736px;
+    height: 512px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        box-shadow: none;
+    }
+}
+
+.box {
+    padding: 20px 50px;
+    height: 100%;
+}
+
+/* End Global Rules */
+
+/* =================== */
+
+/* Start Left Box */
+
+.left {
+    background-image: linear-gradient(to bottom, hsl(253, 101%, 67%) 5%, hsl(241, 81%, 54%) 95%);
+    color: hsl(0, 0%, 100%);
+    flex-basis: 50%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    width: 368px;
+}
+
+@media (max-width: 767px) {
+    .left {
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+        -webkit-border-radius: 0 0 20px 20px;
+        -moz-border-radius: 0 0 20px 20px;
+        -ms-border-radius: 0 0 20px 20px;
+        -o-border-radius: 0 0 20px 20px;
+    }
+}
+
+.left .top {
+    font-size: 18px;
+    margin: 20px 0 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.left .circle {
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .left .circle {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.left .circle span {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+.left h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.left p {
+    width: 230px;
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    margin: 15px auto;
+}
+
+/* End Left Box */
+
+/* =================== */
+
+/* Start Right Box */
+
+.right {
+    flex-basis: 50%;
+    padding-left: 40px;
+}
+
+@media (max-width: 767px) {
+    .right {
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+.right .top {
+    text-align: left;
+    font-size: 18px;
+    margin: 20px 0 20px;
+}
+
+.right .results .result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.right .results .reaction {
+    background-color: #fff6f5;
+}
+
+.right .results .memory {
+    background-color: #fffbf2;
+}
+
+
+.right .results .verbal {
+    background-color: #f2fbfa;
+
+}
+
+.right .results .visual {
+    background-color: #f3f3fd;
+}
+
+.right .results .result .title {
+    display: flex;
+    align-items: center;
+}
+
+.right .results .result .title img {
+    padding: 10px;
+}
+
+.right .results .reaction h4 {
+    color: var(--primary-color);
+}
+
+.right .results .memory h4 {
+    color: var(--primary-color-02);
+}
+
+
+.right .results .verbal h4 {
+    color: var(--primary-color-03);
+}
+
+.right .results .visual h4 {
+    color: var(--primary-color-04);
+}
+
+
+.right .results .result .number {
+    color: #777;
+}
+
+.right .results .result .number span {
+    font-weight: 800;
+    color: black;
+    padding-right: 5px;
+}
+
+.right button {
+    margin: 40px auto;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(to bottom, hsl(253, 101%, 67%) 5%, hsl(241, 81%, 54%) 95%);
+    color: white;
+    cursor: pointer;
+}
+
+/* End Right Box */
+
+/* =================== */
+
+/* Start attribution */
+
+.attribution {
+    display: block;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .attribution {
+        padding: 20px;
+        position: relative;
+        top: -60px;
+    }
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Start attribution */
