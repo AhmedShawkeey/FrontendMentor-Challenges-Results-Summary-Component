@@ -1,8 +1,8 @@
 # Frontend Mentor - Results summary component
 
-Preview [https://ahmedshawkeey.github.io/FrontendMentor-Challenges-Results-Summary-Component](https://ahmedshawkeey.github.io/FrontendMentor-Challenges-Results-Summary-Component/)
+## Preview 👀 [https://ahmedshawkeey.github.io/FrontendMentor-Challenges-Results-Summary-Component](https://ahmedshawkeey.github.io/FrontendMentor-Challenges-Results-Summary-Component/)
 
-Solution https://www.frontendmentor.io/solutions/submitted-with-flex-box-OdYvFKgI9B
+## Solution Link https://www.frontendmentor.io/solutions/submitted-with-flex-box-OdYvFKgI9B
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
